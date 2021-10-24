@@ -1,0 +1,213 @@
+body
+{
+    background-color:rgb(36, 36, 36)
+}
+
+*
+{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+
+.navbar
+{
+    background-color: black;
+    height: 100px;
+    padding-top: 50px;
+    
+    
+}
+
+.nav-li
+{
+    float: left;
+    padding-left: 90px;
+    list-style-type: none;
+    font-family: 'Merienda', cursive;
+    
+    
+}
+
+
+.section-1
+{
+    
+    width: 20%;
+   padding: ;
+    
+    margin-right: 200px;
+}
+
+.section-2{
+  
+    width: 20%;
+
+ 
+    margin-left: 200px;
+}
+
+.baal
+{
+    position: absolute;
+    top: 300px;
+    width: 20%;
+
+  
+}
+
+.container-2
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.baal-title
+{
+    text-align: center;
+    padding: 3%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+
+}
+h1, p
+{
+    color: rgb(120, 46, 247);
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.gif-img
+{
+    width: 540px;
+    border-radius: 200px;
+    
+}
+
+.gif-img{
+    padding-top: 100px;
+}
+
+h1{
+    padding-top: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    size: 1.4rem;
+    color: white;
+}
+
+p
+{
+    font-family: 'Mate SC', serif;
+    font-size: 1.1rem;
+}
+
+h1
+{
+    font-family: 'Mate SC', serif;
+    padding-bottom: 20px;
+}
+
+a:active
+{
+    color: rgb(120, 46, 247);
+
+}
+
+a:hover
+{
+    color: rgb(120, 46, 247);
+
+}
+
+.shogun-title
+{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 10%;
+}
+
+.shogun-title:hover
+{
+    color: yellow;
+
+}
+
+.baal-chibi
+{
+    width: 10%;
+    position: absolute;
+    top: 1050px;
+    padding-top: 20px;
+}
+
+.light
+{
+    position: absolute;
+    right: 700px;
+    top: 1100px;
+    width: 10%;
+}
+
+
+.light-2
+{
+    position: absolute;
+    left: 700px;
+    top: 1100px;
+    width: 10%;
+}
+
+
+/* GALLERY CSS */
+
+.gallery-container
+{
+    background-image: url("https://images4.alphacoders.com/152/152546.jpg");
+    background-position:20%  ;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+
+}
+
+
+
+.gallery-images
+{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.gallery-boxes
+{
+    text-align: center;
+    align-self: center;
+    margin-bottom: 300px;
+
+}
+
+.gallery-images:hover
+{
+    width: 600px;
+}
